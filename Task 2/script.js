@@ -49,7 +49,7 @@ function displayWeather(data) {
         const temperature = Math.round(data.main.temp - 273.15);
         const description = data.weather[0].description;
         const iconCode = data.weather[0].icon;
-        const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@4x.png`;
+        const iconUrl = `weatherforec.jpg`;
 
         const temperatureHTML = `
             <p>${temperature}°C</p>
